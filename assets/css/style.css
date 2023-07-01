@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dekko', cursive;
+    font-size: 22px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#heart {
+    filter: grayscale(1);
+    transition: all 0.1s;
+    width: 10%;
+    transform-origin: center;
+}
+
+#submitIn {
+    width: 16vw;
+    
+}
+
+footer {
+    margin-top: 30vh;
+    display: flex;
+    justify-content: center;
+}

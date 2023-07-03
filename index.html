@@ -5,24 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Dekko' rel='stylesheet'>
-    <title>Happy Birthday!</title>
+    <title>Test Love</title>
 </head>
 <body>
+    <audio id="music" autoplay>
+        <source src="./assets/image/romantic-music.m4a" type="audio/mp4">
+        Your browser does not support audio tag
+    </audio>
+
     <header>
-        <h1>Hey It's Your Birthday</h1>
+        <h1>Test My Love</h1>
+        <p id="msg">Move the heart closer to you...</p>
     </header>
 
     <main>
-        <img id="heart" src="./assets/image/Heart-image.png" alt="Heart-image">
+        <div id="modal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2>Modal Title</h2>
+              <p>This is the content of the modal.</p>
+            </div>
+          </div>
+
+        <img id="heart" src="./assets/image/Heart-image.png" alt="Heart-image" class="heart">
         <section>
             <form id="daysSubmit">
                 <input type="text" id="submitIn" placeholder="How many days have passed since we met?">
                 <input type="submit">
             </form>
         </section>
+
+        <section id="ariPics">
+            <div>
+                <img src="./assets/image/ari1.jpg" alt="ari1">
+                <img src="./assets/image/ari2.jpg" alt="ari2">
+                <img src="./assets/image/ari3.jpg" alt="ari3">
+            </div>
+            <div>
+                <img src="./assets/image/ari4.jpg" alt="ari4">
+                <img src="./assets/image/ari5.jpg" alt="ari5">
+                <img src="./assets/image/ari6.jpg" alt="ari6">
+            </div>
+        </section>
     </main>
 
-    <footer>
+    <footer id="footer">
         <h3>Made Just For You ❤️❤️</h3>
     </footer>
     <script src="./assets/js/script.js"></script>
